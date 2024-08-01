@@ -23,6 +23,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+function scrollToHome() {
+    const contactSection = document.getElementById('home');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToAboutMe() {
+    const contactSection = document.getElementById('about-me');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToSkills() {
+    const contactSection = document.getElementById('skills');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function scrollToProjects() {
+    const contactSection = document.getElementById('projects');
+    contactSection.scrollIntoView({ behavior: 'smooth' });
+}
+
 function scrollToContact() {
     const contactSection = document.getElementById('contact-me');
     contactSection.scrollIntoView({ behavior: 'smooth' });
